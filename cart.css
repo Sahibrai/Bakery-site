@@ -1,0 +1,221 @@
+/*------------------------------------------------Header--------------------------------------------*/
+.div1{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    left: 0px;
+    opacity: 0.7;
+    height: 60px;
+    top: 0px;
+}
+.chef{
+    margin-left: 50px;
+    margin-top: 5px;
+    height: 50px;
+}
+.link{
+    margin-right: 40px;
+    font-size: 23px;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.link:hover{
+    color:blanchedalmond;
+    text-decoration: none;
+}
+.menu{
+    font-size: 22px;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.menu:hover{
+    color:blanchedalmond;
+    text-decoration: none;
+}
+#l{
+    margin-left: 900px;
+}
+fas:hover{
+    color:blanchedalmond;
+}
+fas{
+    color: white;
+    font-size: 25px;
+}
+/*----------------------cart----------------------*/
+body{
+    background-color: white;
+    font-family: sans-serif;
+    background-image: url(images/cartbg.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+h1{
+    font-family: 'Rowdies', cursive;
+}
+.empty{
+    width: 70%;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    opacity: 0.5;
+    
+}
+.products-container
+{
+	max-width: 100%;
+}
+.division{
+    display: flex;
+    flex: 100%;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 2%;
+}
+h5{
+    color: black;
+    font-size: 20px;
+}
+.span1{
+    font-size: 25px;
+    margin-left: 350px;
+    font-family: 'Rowdies', cursive;
+}
+.span2{
+     font-size: 25px;
+    margin-left: 150px;
+    font-family: 'Rowdies', cursive;
+}
+.span3{
+    font-size: 25px;
+    margin-left: 150px;
+    font-family: 'Rowdies', cursive;
+}
+.span4{
+    font-size: 25px;
+    margin-left: 150px;
+    font-family: 'Rowdies', cursive;
+}
+
+.products
+{
+    flex: 100%;
+}
+.product{
+    margin: 0 auto;
+    display: flex;
+    height: 190px;
+    width: 70%;
+    border: grey;
+    
+}
+.itemname{
+    height: 200px;
+    width: 200px;
+    margin-left: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+.itemprice{
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.itemquantity{
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.itemtotal{
+    height: 200px;
+    width: 200px;
+    margin-left:30px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.itemtag{
+    height: 200px;
+    width: 40px;
+    margin-left:px;
+    font-size: 40px;
+    text-align: center;
+}
+.ttag{
+    margin-top: 15px;
+}
+.jsimg{
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.jsname{
+    background-color: black;
+    color: white;
+}
+.basketTotalContainer{
+    width: 25%;
+    margin-left: 800px;
+}
+.basketTotalTitle{
+    font-size: 23px;
+}
+.rupees{
+ margin-left: 120px;
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: darkgray;
+    padding-top: 15px;
+    opacity: 0.6;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+/*------------------------------------------footer------------------------------------------------*/
+.div5{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    height: 200px;
+    bottom: 0px;
+}
+.contact{
+    flex: 20%;
+    color: gray;
+    font-family: arial;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.logo{
+    width: 20px;
+    height: 20px;
+    background-color:  gray;
+}
+.contact:hover{
+    color:white;
+}
+.logo:hover{
+    background-color: white;
+}

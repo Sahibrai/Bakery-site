@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Your Payment</title>
+        <script src="https://kit.fontawesome.com/ea9624cef9.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rowdies&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="payment.css">
+    </head>
+    <body>
+        <div class="div1" ><br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="menu.html"><i class="fas fa-arrow-left"></i>&nbsp; Back </a>
+     <a href="index1.html#part1" class="link" id="l">Home</a> &nbsp;&nbsp;&nbsp;&nbsp; 
+     <a href="index1.html#part2" class="link">About</a> &nbsp;&nbsp;&nbsp;&nbsp; 
+     <a href="menu.html" class="link">Order</a> &nbsp;&nbsp;&nbsp;&nbsp; 
+     <a href="#part4" class="link">Contact</a>  </div>
+     <center><h1>Payment</h1></center>
+     <form action="index1.html">
+     <div class="div2">
+         <div class="subdiv">
+    
+             <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> &nbsp;Full Name</label><br><br>
+            <input class="name" type="text" id="fname" name="firstname" placeholder="&nbsp;&nbsp;Enter your name" required><br><br>
+            <label for="email"><i class="fa fa-envelope"></i> &nbsp;Email</label><br><br>
+            <input class="name" type="email" id="email" name="email" placeholder="&nbsp;&nbsp;abc@example.com" required><br><br>
+            <label for="adr"><i class="fa fa-address-card-o"></i>&nbsp; Address</label><br><br>
+            <input class="name" type="address" id="adr" name="address" placeholder=" &nbsp;&nbsp;Address" required><br><br>
+            <label for="state">City</label>
+               <label class="state" for="zip">State</label>
+               <br><br>
+                <input class="city" type="text" id="city" name="city" placeholder="&nbsp;&nbsp;City" required>
+              
+                
+                <input  class="zip" type="tel" maxlength="5" id="state" name="state" placeholder="&nbsp;&nbsp;State" required><br><br>
+             <label for="zip">Zip</label>
+               <label id="mobile" for="mobile">Mobile No.</label>
+               <br><br>
+                <input class="zip" type="text" id="zip" name="zip" maxlength="5" placeholder="&nbsp;&nbsp;12345" required>
+              
+                
+                <input  class="mobile" type="tel" maxlength="10"  name="mobile" placeholder="&nbsp;&nbsp;xxxxxxxxxx" pattern="[0-9]{10}" required><br><br>
+                
+         </div>
+         
+         <div class="subdiv"><h3>Payment</h3>
+            <label class="accepted" for="fname">Accepted Cards</label><br><br>
+             
+              <i class="card cards fa fa-cc-visa" style="color:navy;"></i>
+              <i class="card fa fa-cc-amex" style="color:blue;"></i>
+              <i class="card fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="card fa fa-cc-discover" style="color:orange;"></i>
+            <br><br>
+            <label for="cname">Name on Card</label>
+            <br><br><input class="name" type="text" id="cname" name="cardname" placeholder="&nbsp;Enter your name on card" required><br><br>
+            <label for="ccnum">Card number</label><br><br>
+            <input class="name" type="tel" id="ccnum" name="cardnumber" placeholder="&nbsp;1111-2222-3333-4444" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" required><br><br>
+            <label for="expmonth">Exp Month</label>
+            <br><br><input class="name" type="number" min="1" max="12" id="expmonth" name="expmonth" placeholder="&nbsp;Month" required><br><br>
+            
+                <label for="expyear">Exp Year</label>
+                <label class="cvv" for="cvv"> CVV</label><br><br>
+                <input class="zip" type="tel" id="expyear" name="expyear" maxlength="4" minlength="4" placeholder="&nbsp;20xx" required>
+              
+                
+                <input class="mobile" type="tel" maxlength="3" name="cvv" placeholder="&nbsp;123" minlength="3" required>
+         </div>
+     </div>
+     <button class="button" type="submit" onclick="feedback()"><b> Place Order</b></button>
+    </form>
+    <div class="div5" id="part4">
+            <div class="contact"></div>
+            <div class="contact">
+            Follow us on: <br><br>
+            <a href="https://www.facebook.com/"><img class="logo" src="images/facebook.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.instagram.com/?hl=en"><img class="logo" src="images/instagram.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://twitter.com/login"><img class="logo" src="images/twitter.png" alt=""></a>
+            </div>
+            <div class="contact">
+            Location <br><br>
+            123 Balboa Street <br>
+            San Francisco,CA 94118
+            </div>
+            <div class="contact">
+            Contact <br><br> 
+            (415)789-5678 <br>
+            (415)789-1234 <br> 
+            order@bakenflake.com
+            </div>
+            <div class="contact"></div>
+    </div>
+    <script src="cart.js"></script>
+    </body>
+</html>

@@ -1,0 +1,351 @@
+/*------------------------------------------------Header--------------------------------------------*/
+.div1{
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    height: 60px;
+    top: 0px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+.chef{
+    margin-left: 50px;
+    margin-top: 5px;
+    height: 50px;
+}
+.link{
+    margin-right: 40px;
+    font-size: 23px;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.link:hover{
+    color:blanchedalmond;
+    text-decoration: none;
+}
+.menu{
+    font-size: 22px;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.menu:hover{
+    color:blanchedalmond;
+    text-decoration: none;
+}
+#l{
+    margin-left: 900px;
+}
+.fas:hover{
+    color:blanchedalmond;
+}
+/*----------------------------------------------menu-------------------------------------------------*/
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    display: block;
+    width: 140px;
+    text-align: center;
+}
+
+.cart-price {
+    width: 100px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.cart-quantity {
+    width: 100px;
+}
+
+.cart-item-title{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+
+
+
+
+
+.cart{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: white;
+    width: 400px;
+    height: 755px;
+    max-height: 755px;
+    z-index: 2;
+    overflow: scroll;
+    background-color: black;
+    color: white;
+    border: 5px solid black;
+    visibility: hidden;
+}
+.show-cart{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: white;
+    width: 400px;
+    height: 755px;
+    max-height: 755px;
+    z-index:3;
+    overflow: scroll;
+    background-color: black;
+    color: white;
+    border: 5px solid black;
+    font-family: sans-serif;
+    visibility: visible;
+    opacity: 0.9;
+}
+.btn-purchase{
+    width: 150px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid white;
+}
+.cart-header1{
+    font-family: sans-serif;
+}
+.cart-header2{
+    font-family: sans-serif;
+}
+.cart-header3{
+    font-family: sans-serif;
+}
+.cross{
+    margin-top:20px;
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+}
+.cart-total-title{
+    margin-left: 155px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.cart-total-price{
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+button{
+    height: 30px;
+    width: 40px;
+    background-color: black;
+    color: aliceblue;
+    border: 0px solid black;
+    cursor: pointer;
+}
+.fa-shopping-cart{
+    font-size: 20px;
+}
+.cart-quantity-input{
+    width: 40px;
+    font-weight: bold;
+}
+.btn-danger{
+    margin-left: 20px;
+    height: 22px;
+    width: 25px;
+    text-align: center;
+    border: 1px solid white;
+}
+#numOfItems{
+    position: fixed;
+    right: 45px;
+    top: 15px;
+    background-color: red;
+    color: white;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    z-index: 2;
+    border-radius: 30%;
+    opacity: 0.9;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: black;
+    margin: 0;
+}
+h1{
+    color:beige;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: 'Rowdies', cursive;
+}
+.backg{
+    background-image: url(images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.cupbg{
+    background-image: url(images/bgcup.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  background-size: cover;
+    height: 700px;
+}
+.pastrybg{
+    background-image: url(images/pasbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  background-size: cover;
+    height: 700px;
+}
+.macronbg{
+    background-image: url(images/macronbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  background-size: cover;
+    height: 700px;
+}
+.donutbg{
+    background-image: url(images/donutbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  background-size: cover;
+    height: 700px;
+}
+.fa-arrow-circle-up{
+    position: fixed;
+    top: 640px;
+    left: 1400px;
+    font-size: 50px;
+    color: black;
+    opacity: 0.3;
+    
+}
+.fa-arrow-circle-up:hover{
+    opacity: 0.6;
+}
+.container{
+    
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+    margin-top: 20px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 0px solid white;
+    border-radius: 2%;
+}
+.im{
+    border: 3px solid black;
+}
+.image
+{
+    margin-right: 80px;
+	margin-left: 80px;
+	position: relative;
+	overflow: hidden;
+}
+h3{
+    margin-bottom: 0px;
+    margin-top: 7px;
+    color: aliceblue;
+    background-color: black;
+    font-family: sans-serif;
+}
+.add-cart
+{
+	position: absolute;
+	background-color: darkgrey;
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+	cursor: pointer;
+	text-align: center;
+    width: 200px;
+}
+.image:hover .carts
+{
+	bottom: 60px;
+	opacity: 0.7;
+	padding: 10px;
+	text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: cadetblue;
+    
+}
+/*------------------------------------------------cart-----------------------------------------*/
+
+/*--------------------------------------------footer-------------------------------------------*/
+.div5{
+    background-color: black;
+    display: flex;
+    height: 150px;
+}
+.contact{
+    flex: 20%;
+    color: gray;
+    font-family: arial;
+    margin-top: 0px;
+}
+.logo{
+    width: 20px;
+    height: 20px;
+    background-color:  gray;
+}
+.contact:hover{
+    color:white;
+}
+.logo:hover{
+    background-color: white;
+}

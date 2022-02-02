@@ -1,0 +1,169 @@
+body{
+  margin: 0px;
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+    
+}
+/* Header */
+.div1{
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    height: 60px;
+}
+.chef{
+    margin-left: 50px;
+    margin-top: 5px;
+    height: 50px;
+}
+.link{
+    margin-left: 30px;
+    font-size: 23px;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.link:hover{
+    color:blanchedalmond;
+    text-decoration: none;
+}
+a{
+    font-size: 23px;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color:blanchedalmond;
+    text-decoration: none;
+}
+#l{
+    margin-left: 900px;
+}
+fas:hover{
+    color:blanchedalmond;
+}
+fas{
+    color: white;
+    font-size: 25px;
+}
+/* Form */
+h1{
+    font-family: 'Rowdies', cursive;
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+h3{
+    margin: 10px auto 10px 270px;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.div2{
+ display: flex;   
+}
+.subdiv{
+    font-family: 'Ubuntu', sans-serif;
+    flex: 50%;
+    border: 5px solid black;
+    background-color: gray;
+    opacity: 0.7;
+    color: white;
+    margin: 10px;
+    font-size:17px;
+}
+.name{
+    width: 90%;
+    height: 32px;
+}
+input{
+    
+    border: 3px solid black;
+    margin-left: 20px;
+}
+label{
+    margin-left: 20px;
+}
+.state{
+    width:40%;
+    height: 32px;
+}
+.city{
+    width:40%;
+    height: 32px;
+}
+.mobile{
+    width:40%;
+    height: 32px;
+}
+.zip1{
+    margin-left: 300px;
+}
+.zip{
+    width:40%;
+    height: 32px;
+}
+.card{
+    font-size: 26px;
+    background-color: white;
+    margin-left: 10px;
+    
+}
+.cards{
+    margin-left: 20px;
+}
+.accepted{
+    font-size: 20px;
+}
+.button{
+    margin-left: 380px;
+    margin-top: 10px;
+    width:50%;
+    height: 40px;
+    background-color: gray;
+    opacity: 0.7;
+    font-size: 20px;
+    color: white;
+    border: 5px solid black;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: dimgray;
+}
+.cvv{
+    margin-left: 250px;
+}
+.state{
+    margin-left: 285px;
+}
+#mobile{
+    margin-left: 290px;
+}
+
+.div5{
+    background-color: black;
+    display: flex;
+    height: 200px;
+    opacity: 0.9;
+}
+.contact{
+    flex: 20%;
+    color: gray;
+    font-family: arial;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.logo{
+    width: 20px;
+    background-color:  gray;
+}
+.contact:hover{
+    color:white;
+}
+.logo:hover{
+    background-color: white;
+}
